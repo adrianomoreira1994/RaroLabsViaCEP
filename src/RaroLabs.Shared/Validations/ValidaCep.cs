@@ -1,6 +1,6 @@
 ﻿using System.Text.RegularExpressions;
 
-namespace RaroLabs.Shared
+namespace RaroLabs.Shared.Validations
 {
     public static class ValidaCep
     {

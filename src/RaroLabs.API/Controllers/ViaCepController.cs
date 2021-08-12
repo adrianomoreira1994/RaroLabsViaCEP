@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using RaroLabs.API.Interfaces;
-using RaroLabs.Shared;
+using RaroLabs.Shared.Validations;
 using System.Threading.Tasks;
 
 namespace RaroLabs.API.Controllers
