@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31410.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RaroLabs.API", "src\RaroLabs.API\RaroLabs.API.csproj", "{662770B3-D6EB-4AA3-AA27-8EC9C8E639D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RaroLabs.Shared", "src\RaroLabs.Shared\RaroLabs.Shared.csproj", "{48B30F55-428E-408B-A3AC-BE708FC477D7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{662770B3-D6EB-4AA3-AA27-8EC9C8E639D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{662770B3-D6EB-4AA3-AA27-8EC9C8E639D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{662770B3-D6EB-4AA3-AA27-8EC9C8E639D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{662770B3-D6EB-4AA3-AA27-8EC9C8E639D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48B30F55-428E-408B-A3AC-BE708FC477D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48B30F55-428E-408B-A3AC-BE708FC477D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48B30F55-428E-408B-A3AC-BE708FC477D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48B30F55-428E-408B-A3AC-BE708FC477D7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6AA264E0-8EEE-44E0-B4EB-D09DE3486A74}
+	EndGlobalSection
+EndGlobal
