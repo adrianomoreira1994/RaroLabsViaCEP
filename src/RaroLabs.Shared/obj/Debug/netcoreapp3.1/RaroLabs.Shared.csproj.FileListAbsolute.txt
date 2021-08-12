@@ -1,0 +1,9 @@
+C:\dev\RaroLabs\src\RaroLabs.Shared\bin\Debug\netcoreapp3.1\RaroLabs.Shared.deps.json
+C:\dev\RaroLabs\src\RaroLabs.Shared\bin\Debug\netcoreapp3.1\RaroLabs.Shared.dll
+C:\dev\RaroLabs\src\RaroLabs.Shared\bin\Debug\netcoreapp3.1\RaroLabs.Shared.pdb
+C:\dev\RaroLabs\src\RaroLabs.Shared\obj\Debug\netcoreapp3.1\RaroLabs.Shared.csproj.AssemblyReference.cache
+C:\dev\RaroLabs\src\RaroLabs.Shared\obj\Debug\netcoreapp3.1\RaroLabs.Shared.AssemblyInfoInputs.cache
+C:\dev\RaroLabs\src\RaroLabs.Shared\obj\Debug\netcoreapp3.1\RaroLabs.Shared.AssemblyInfo.cs
+C:\dev\RaroLabs\src\RaroLabs.Shared\obj\Debug\netcoreapp3.1\RaroLabs.Shared.csproj.CoreCompileInputs.cache
+C:\dev\RaroLabs\src\RaroLabs.Shared\obj\Debug\netcoreapp3.1\RaroLabs.Shared.dll
+C:\dev\RaroLabs\src\RaroLabs.Shared\obj\Debug\netcoreapp3.1\RaroLabs.Shared.pdb
