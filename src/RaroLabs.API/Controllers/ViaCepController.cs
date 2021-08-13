@@ -7,7 +7,7 @@ namespace RaroLabs.API.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class ViaCepController : ControllerBase
+    public class ViaCepController : ApiController
     {
         private IViaCepService _service;
 
@@ -17,31 +17,15 @@ namespace RaroLabs.API.Controllers
         [Route("{cep}")]
         public async Task<IActionResult> Get(int cep)
         {
-            try
+            if (!ValidaCep.IsValid(cep))
             {
-                if (!ValidaCep.IsValid(cep))
-                {
-                    return StatusCode(400, new
-                    {
-                        value = cep,
-                        message = "Informe um CEP valido"
-                    });
-                }
-
-                var response = await _service.GetViaCepData(cep);
-
-                return StatusCode(200, new
-                {
-                    data = response
-                });
+                AddError($"CEP: {cep} inválido.");
+                return CustomResponse();
             }
-            catch (System.Exception exception)
-            {
-                return StatusCode(500, new
-                {
-                    error = exception.Message
-                });
-            }
+
+            var response = await _service.GetViaCepData(cep);
+
+            return CustomResponse(response);
         }
     }
 }
